@@ -1,3 +1,5 @@
+![Alt ou título da imagem](https://www.zazvendas.com.br/wp-content/uploads/2022/05/Logotipo-ZAZ-Vendas.png)
+
 # Dicionario de dados
 
 ### Estabelecimentos
