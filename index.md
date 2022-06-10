@@ -18,6 +18,15 @@ O Extrato Eletrônico é um produto disponibilizado pela Cielo aos clientes que 
 - Segurança no recebiento das informações
 - Atendimento Especializado
 
+### Consulta conciliadora
+
+O Extrato Eletrônico é um produto disponibilizado pela Cielo aos clientes que necessitam de automatização no processo de conciliação. Nele, as informações são transmitidas de forma padronizada sem intervenção manual por meio do canal SFG (Sterling File Gateway), proporcionando agilidade e segurança no tráfego das informações. Ao lado, macrofluxo do serviço.
+
+1 - O parceiro redireciona o cliente para {cielo-login-url}.
+2 - O cliente entra com suas credenciais e clica em Entrar.
+3 - A Cielo mostra os termos de autorização e o cliente aprova este acesso clicando em Permitir Acesso.
+4 - A Cielo redireciona o cliente para o parceiro novamente em {partner-call-back-url}. 
+
 
 #### Request
 
@@ -27,3 +36,79 @@ O Extrato Eletrônico é um produto disponibilizado pela Cielo aos clientes que 
 > | ------------- | ------------------------------ |
 > | `help()`      | Display the help window.       |
 > | `destroy()`   | **Destroy your computer!**     |
+
+```javascript
+{
+  products(first: 5, channel: "default-channel") {
+    edges {
+      node {
+        id
+        name
+        description
+      }
+    }
+  }
+}
+```
+
+#### Response
+
+```javascript
+{
+  "data": {
+    "products": {
+      "edges": [
+        {
+          "node": {
+            "id": "UHJvZHVjdDoxMzY=",
+            "name": "ABBA / Arrival",
+            "description": "{\"time\": 1654858249725, \"blocks\": [{\"id\": \"0\", \"data\": {\"text\": \"\"}, \"type\": \"paragraph\"}], \"version\": \"2.23.1\"}"
+          }
+        },
+        {
+          "node": {
+            "id": "UHJvZHVjdDoxMzQ=",
+            "name": "Aniversario Los 10 Años De ABBA",
+            "description": "{\"time\": 1654858217036, \"blocks\": [{\"id\": \"0\", \"data\": {\"text\": \"\"}, \"type\": \"paragraph\"}], \"version\": \"2.23.1\"}"
+          }
+        },
+        {
+          "node": {
+            "id": "UHJvZHVjdDoxMzA=",
+            "name": "Antologia",
+            "description": "{\"time\": 1654858150184, \"blocks\": [{\"id\": \"0\", \"data\": {\"text\": \"\"}, \"type\": \"paragraph\"}], \"version\": \"2.23.1\"}"
+          }
+        },
+        {
+          "node": {
+            "id": "UHJvZHVjdDoxMjc=",
+            "name": "A Wie ABBA (Die Grössten Erfolge Von »Waterloo« Bis »Super Trouper«)",
+            "description": "{\"time\": 1654858094989, \"blocks\": [{\"id\": \"0\", \"data\": {\"text\": \"\"}, \"type\": \"paragraph\"}], \"version\": \"2.23.1\"}"
+          }
+        },
+        {
+          "node": {
+            "id": "UHJvZHVjdDoxMjY=",
+            "name": "Eagle / Thank You For The Music",
+            "description": "{\"time\": 1654858078996, \"blocks\": [{\"id\": \"0\", \"data\": {\"text\": \"\"}, \"type\": \"paragraph\"}], \"version\": \"2.23.1\"}"
+          }
+        }
+      ]
+    }
+  },
+  "extensions": {
+    "cost": {
+      "requestedQueryCost": 10,
+      "maximumAvailable": 50000
+    }
+  }
+}
+```
+
+#### Observações
+
+- Permite a realização da conciliação contábil e financeira de forma automatizada
+- Maior agilidade e eficiência operacional
+- Integração com a automação comercial de vendas
+- Segurança no recebiento das informações
+- Atendimento Especializado
