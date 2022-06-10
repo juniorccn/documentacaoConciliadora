@@ -2,6 +2,8 @@
 
 ![](https://www.zazvendas.com.br/wp-content/uploads/2022/05/Logotipo-ZAZ-Vendas.png)
 
+### Indice
+
 <ul>
   <li {% if page.url contains '/getting-started' %}class="active"{% endif %}><a href="/getting-started/">Getting started</a></li>
   <li {% if page.url contains '/without-plugin' %}class="active"{% endif %}><a href="/without-plugins/">Without plugins</a></li>
@@ -34,8 +36,9 @@ O Extrato Eletrônico é um produto disponibilizado pela Cielo aos clientes que 
 3. A Cielo mostra os termos de autorização e o cliente aprova este acesso clicando em Permitir Acesso.
 4.  A Cielo redireciona o cliente para o parceiro novamente em {partner-call-back-url}. 
 
-### Heading 3 link [Heading link](https://github.com/pandao/editor.md "Heading link")
+### Consulta visitas
 
+O Extrato Eletrônico é um produto disponibilizado pela Cielo aos clientes que necessitam de automatização no processo de conciliação. Nele, as informações são transmitidas de forma padronizada sem intervenção manual por meio do canal SFG (Sterling File Gateway), proporcionando agilidade e segurança no tráfego das informações. Ao lado, macrofluxo do serviço.
 
 #### Request
 
