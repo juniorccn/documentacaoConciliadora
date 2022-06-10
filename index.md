@@ -1,6 +1,6 @@
 ![](https://www.acate.com.br/wp-content/uploads/2021/12/zaz-conecta-anuncio-1200x600px-2.png)
 
-### Indice
+### Índice1
 
 <ul>
   <li {% if page.url contains '/getting-started' %}class="active"{% endif %}><a href="/getting-started/">Getting started</a></li>
@@ -41,7 +41,7 @@ O Extrato Eletrônico é um produto disponibilizado pela Cielo aos clientes que 
 #### Request
 
 
-> **POST** {cielo-api-base-url}/consent/v1/oauth/access-token POST {cielo-api-base-url}/consent/v1/oauth/access-token
+> **POST** {cielo-api-base-url}/consent/v1/oauth/access-token POST {cielo-api-base-url}/consent/v1/oauth/access-token}
 
 | Function name | Description                    | Description                    |
 | ------------- | ------------------------------ | ------------------------------ |
