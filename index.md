@@ -22,10 +22,10 @@ O Extrato Eletrônico é um produto disponibilizado pela Cielo aos clientes que 
 
 O Extrato Eletrônico é um produto disponibilizado pela Cielo aos clientes que necessitam de automatização no processo de conciliação. Nele, as informações são transmitidas de forma padronizada sem intervenção manual por meio do canal SFG (Sterling File Gateway), proporcionando agilidade e segurança no tráfego das informações. Ao lado, macrofluxo do serviço.
 
-1 - O parceiro redireciona o cliente para {cielo-login-url}.
-2 - O cliente entra com suas credenciais e clica em Entrar.
-3 - A Cielo mostra os termos de autorização e o cliente aprova este acesso clicando em Permitir Acesso.
-4 - A Cielo redireciona o cliente para o parceiro novamente em {partner-call-back-url}. 
+1. O parceiro redireciona o cliente para {cielo-login-url}.
+2. O cliente entra com suas credenciais e clica em Entrar.
+3. A Cielo mostra os termos de autorização e o cliente aprova este acesso clicando em Permitir Acesso.
+4.  A Cielo redireciona o cliente para o parceiro novamente em {partner-call-back-url}. 
 
 
 #### Request
