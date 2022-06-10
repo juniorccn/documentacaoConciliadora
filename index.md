@@ -1,6 +1,6 @@
 ![](https://www.acate.com.br/wp-content/uploads/2021/12/zaz-conecta-anuncio-1200x600px-2.png)
 
-### Índice1
+### Índice
 
 <ul>
   <li {% if page.url contains '/getting-started' %}class="active"{% endif %}><a href="/getting-started/">Getting started</a></li>
