@@ -1,6 +1,6 @@
 # Conecta
 
-![](https://www.zazvendas.com.br/wp-content/uploads/2022/05/Logotipo-ZAZ-Vendas.png)
+![](https://www.acate.com.br/wp-content/uploads/2021/12/zaz-conecta-anuncio-1200x600px-2.png)
 
 ### Indice
 
