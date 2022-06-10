@@ -18,6 +18,8 @@
 |--- |--- |--- |
 | row 1 | column 2 | column 3 |
 | row 2 | row 2 column 2 | row 2 column 3 |
+| row 2 | row 2 column 2 | row 2 column 3 |
+| row 2 | row 2 column 2 | row 2 column 3 |
 
 1. This is the fourth step.
 
