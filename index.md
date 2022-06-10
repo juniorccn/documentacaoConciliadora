@@ -2,6 +2,19 @@
 
 ![](https://www.zazvendas.com.br/wp-content/uploads/2022/05/Logotipo-ZAZ-Vendas.png)
 
+# Heading 1
+## Heading 2               
+### Heading 3
+#### Heading 4
+##### Heading 5
+###### Heading 6
+# Heading 1 link [Heading link](https://github.com/pandao/editor.md "Heading link")
+## Heading 2 link [Heading link](https://github.com/pandao/editor.md "Heading link")
+### Heading 3 link [Heading link](https://github.com/pandao/editor.md "Heading link")
+#### Heading 4 link [Heading link](https://github.com/pandao/editor.md "Heading link") Heading link [Heading link](https://github.com/pandao/editor.md "Heading link")
+##### Heading 5 link [Heading link](https://github.com/pandao/editor.md "Heading link")
+###### Heading 6 link [Heading link](https://github.com/pandao/editor.md "Heading link")
+
 ### Introdução
 
 Essa API possibilita o registro de grupos e mantém seu registro para receber arquivos EDI (Electronic Data Interchange).
@@ -26,6 +39,8 @@ O Extrato Eletrônico é um produto disponibilizado pela Cielo aos clientes que 
 2. O cliente entra com suas credenciais e clica em Entrar.
 3. A Cielo mostra os termos de autorização e o cliente aprova este acesso clicando em Permitir Acesso.
 4.  A Cielo redireciona o cliente para o parceiro novamente em {partner-call-back-url}. 
+
+### Heading 3 link [Heading link](https://github.com/pandao/editor.md "Heading link")
 
 
 #### Request
