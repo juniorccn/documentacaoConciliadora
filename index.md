@@ -43,10 +43,10 @@ O Extrato Eletrônico é um produto disponibilizado pela Cielo aos clientes que 
 
 > **POST** {cielo-api-base-url}/consent/v1/oauth/access-token POST {cielo-api-base-url}/consent/v1/oauth/access-token
 
-| Function name | Description                    |
-| ------------- | ------------------------------ |
-| `help()`      | Display the help window.       |
-| `destroy()`   | **Destroy your computer!**     |
+| Function name | Description                    | Description                    |
+| ------------- | ------------------------------ | ------------------------------ |
+| `help()`      | Display the help window.       | Display the help window.       |
+| `destroy()`   | **Destroy your computer!**     | **Destroy your computer!**     |
 
 ```javascript
 {
